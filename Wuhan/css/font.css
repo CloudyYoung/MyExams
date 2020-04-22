@@ -1,0 +1,18 @@
+@font-face {
+
+	font-family: 'MyriadPro-Light';
+	src: url('//gz.bcebos.com/v1/myexams/font/MyriadPro-Light.otf');
+	src: 
+		url('//gz.bcebos.com/v1/myexams/font/MyriadPro-Light.eot') format('embedded-opentype'),
+		url('//gz.bcebos.com/v1/myexams/font/MyriadPro-Light.woff2') format('woff2'),	
+		url('//gz.bcebos.com/v1/myexams/font/MyriadPro-Light.woff') format('woff'),
+		url('//gz.bcebos.com/v1/myexams/font/MyriadPro-Light.ttf') format('truetype');
+	font-weight: normal;font-style: normal;
+
+}
+
+body{
+	
+	font-family: 'MyriadPro-Light';
+	
+}

@@ -1,0 +1,25 @@
+<html>
+
+<body>
+
+<textarea id="table" style="width: 1100px; height: 500px;"></textarea>
+<button onclick="postTable();">submit</button>
+
+<script type="text/javascript" src="function.js"></script>
+<script>
+	function postTable(){
+	var tablE = document.getElementById("table").value;
+	tablE = tablE.replace("年", "-");
+	tablE = tablE.replace("月", "-");
+	tablE = tablE.replace("日", "");
+	
+	post('https://www.ml-v.club/MyExams/request.php', {func: 'submitTable', key: 'CYCY', table: tablE}, function(res){
+
+		alert(res.message);
+
+	});
+}
+</script>
+
+</body>
+</html>
