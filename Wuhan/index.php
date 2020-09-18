@@ -101,7 +101,7 @@ if (empty($_REQUEST['sn'])) {
 
 			<div class="insider-content">
 
-				<img src="images/banner_new.png" class="banner"></img>
+				<img src="images/banner_new.svg" class="banner"></img>
 
 
 				This project is powered by <br>
