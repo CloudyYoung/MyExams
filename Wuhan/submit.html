@@ -13,7 +13,7 @@
 	tablE = tablE.replace("月", "-");
 	tablE = tablE.replace("日", "");
 	
-	post('https://www.ml-v.club/MyExams/request.php', {func: 'submitTable', key: 'CYCY', table: tablE}, function(res){
+	post('request.php', {func: 'submitTable', key: 'CYCY', table: tablE}, function(res){
 
 		alert(res.message);
 

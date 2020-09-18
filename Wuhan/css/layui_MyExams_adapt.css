@@ -1834,14 +1834,16 @@ a cite {
 
 .layui-btn-primary:hover {
 	border-color: #00b0f0;
-	color: #333
+	color: #333;
+	margin: 10px !important;
 }
 
 
 .layui-btn-primary-on{
 	border: 2px solid #00b0f0 !important; 
 	background-color: #00b0f0 !important; 
-	color: #fff; 
+	color: #fff;
+	margin: 10px !important;
 }
 
 .layui-btn-normal {

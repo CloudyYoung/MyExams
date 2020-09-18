@@ -863,14 +863,14 @@ echo $select;
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<link rel="shortcut icon" type="image/ico" href="https://gz.bcebos.com/v1/myexams/cyoung.me.svg" />
-<meta name="msapplication-TileImage" content="https://gz.bcebos.com/v1/myexams/cyoung.me.svg"/>
+<link rel="shortcut icon" type="image/ico" href="cyoung.me.svg" />
+<meta name="msapplication-TileImage" content="cyoung.me.svg"/>
 
-<link rel="stylesheet" href="https://gz.bcebos.com/v1/myexams/css/layui.css?<?php echo $version ?>">
-<link rel="stylesheet" href="https://gz.bcebos.com/v1/myexams/myexams.css?<?php echo $version ?>">
-<link href="https://gz.bcebos.com/v1/myexams/css/font-awesome.min.css?<?php echo $version ?>" rel="stylesheet">
+<link rel="stylesheet" href="css/layui.css?<?php echo $version ?>">
+<link rel="stylesheet" href="myexams.css?<?php echo $version ?>">
+<link href="css/font-awesome.min.css?<?php echo $version ?>" rel="stylesheet">
 
-<link href='https://gz.bcebos.com/v1/myexams/css/font.css?<?php echo $version ?>' rel='stylesheet' type='text/css' />
+<link href='css/font.css?<?php echo $version ?>' rel='stylesheet' type='text/css' />
 
 </head>
 <body>
@@ -1174,14 +1174,14 @@ Cloudy Young
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<link rel="shortcut icon" type="image/ico" href="https://gz.bcebos.com/v1/myexams/cyoung.me.svg" />
-<meta name="msapplication-TileImage" content="https://gz.bcebos.com/v1/myexams/cyoung.me.svg"/>
+<link rel="shortcut icon" type="image/ico" href="cyoung.me.svg" />
+<meta name="msapplication-TileImage" content="cyoung.me.svg"/>
 
-<link rel="stylesheet" href="https://gz.bcebos.com/v1/myexams/css/layui.css?<?php echo $version ?>">
-<link rel="stylesheet" href="https://gz.bcebos.com/v1/myexams/myexams.css?<?php echo $version ?>">
-<link href="https://gz.bcebos.com/v1/myexams/css/font-awesome.min.css?<?php echo $version ?>" rel="stylesheet">
+<link rel="stylesheet" href="css/layui.css?<?php echo $version ?>">
+<link rel="stylesheet" href="myexams.css?<?php echo $version ?>">
+<link href="css/font-awesome.min.css?<?php echo $version ?>" rel="stylesheet">
 
-<link href='https://gz.bcebos.com/v1/myexams/css/font.css?<?php echo $version ?>' rel='stylesheet' type='text/css' />
+<link href='css/font.css?<?php echo $version ?>' rel='stylesheet' type='text/css' />
 
 </head>
 <body>
@@ -1630,13 +1630,13 @@ function hideAll(){
 	<div id="stsListUpload-S1" style="padding: 0 20%; text-align: center;">
 		<div style="padding-top: 2%">
 			<div>
-				<img src="https://gz.bcebos.com/v1/myexams/images/MicrosoftOfficeExcelIcon.png" style="width: 60px;" />
+				<img src="images/MicrosoftOfficeExcelIcon.png" style="width: 60px;" />
 				<p class="sts-list-library-upload-text">Import <b>XLS</b> / <b>XLSX</b> / <b>XLSB</b> or <b>CSV</b> file</p>
 			</div>
 			<hr>
 			<div>
 				<p class="sts-list-library-upload-text">Excel File Column Structure</p>
-				<img src="https://gz.bcebos.com/v1/myexams/images/importStsList.png" style="width: 100%;" />
+				<img src="images/importStsList.png" style="width: 100%;" />
 				<p class="sts-list-library-upload-text"><br></p>
 			</div>
 			<a id="stsListUpload-S1-next" class="layui-btn sts-list-library-upload-btn"><i class="fa fa-arrow-right"></i>&nbsp;&nbsp;Next Step</a>
@@ -1687,9 +1687,9 @@ function hideAll(){
 </div>
 
 
-<script src="https://gz.bcebos.com/v1/myexams/js/cpexcel.js"></script>
-<script src="https://gz.bcebos.com/v1/myexams/js/jszip.js"></script>
-<script src="https://gz.bcebos.com/v1/myexams/js/xlsx.js"></script>
+<script src="js/cpexcel.js"></script>
+<script src="js/jszip.js"></script>
+<script src="js/xlsx.js"></script>
 <script>
 	
 var rABS = true; // true: readAsBinaryString ; false: readAsArrayBuffer
@@ -2217,7 +2217,8 @@ $('#stsListUpload-S3-next').click(function(){
 
 function getYear(){
 	
-	return date('Y');
+	// return date('Y');
+	return 2018;
 	
 }
 

@@ -4,15 +4,18 @@
 		background-color: rgb(253, 253, 253);
 	}
 	
+	*:focus {
+		outline: none;
+	}
+	
 	.header{
 		top: 0px;
 		width: 100%;
 		margin: 0px;
 		padding-left: 20px;
 		padding-right: 20px;
-		padding-top: 15px;
 		background-color: #fff;
-		height: 40px;
+		height: 55px;
 		font-size: 16px;
 		box-shadow: 0px 0px 20px rgba(166,166,166,.6);
 		position: fixed;
@@ -20,18 +23,17 @@
 	}
 	
 	.header-ul-li{
-		height: 37px;
+		height: 55px;
 		font-size: 18px;
-		margin-top: -15px;
 		padding-left: 15px;
 		padding-right: 15px;
-		padding-top: 15px;
 		text-decoration:none;
 		float:left;
 		margin-right: 5px;
 		min-width: 70px;
 		text-align: center;
 		cursor: pointer;
+		line-height: 55px;
 	}
 	
 	.header-ul-li-selected{
@@ -42,31 +44,29 @@
 	.header-ul-li-selected-block{
 		background: #00b0f0 !important;
 		width: 40%;
-		bottom: -3px;
+		bottom: 0px;
 		height: 4px;
 		position: absolute;
 		left: 50%;
 		transform: translateX(-50%);
-		
 	}
 	
 	.header-title{
-		height: 40px;
-		margin-top: -15px;
+		height: 55px;
+		margin-top: 0px;
 		margin-bottom: -7.5px;
 		margin-left: -20px;
 		margin-right: 10px;
 		padding-left: 15px;
 		padding-right: 15px;
-		padding-top: 15px;
-		text-decoration:none;
+		text-decoration: none;
 		float:left;
 		background-color: #00b0f0;
 		color: #fff;
 		font-size: 24px;
-		font-weight: bold;
 		width: 30%;
 		min-width: 200px;
+		font-family: 'MyriadSetPro-Medium';
 	}
 	
 	.bottom-bar{
@@ -121,9 +121,13 @@
 		text-align: left;
 	}
 	
+	.sign-course, .sign-teacher, .sign-block, .sign-exam-course-selecting{
+		margin: 7px !important;
+	}
+	
 	.insider-content{
 		margin-top: 20px;
-		margin-bottom: 80px;
+		margin-bottom: 180px;
 		font-size: 20px;
 		text-align: center;
 		padding-top: 55px;
@@ -144,13 +148,14 @@
 		font-size: 32px;
 		color: #00b0f0;
 		margin: 10px;
+		font-family: 'MyriadSetPro-Medium';
 	}
 	
 	.insider-title-red{
 		font-size: 32px;
 		margin: 10px;
 		color: #ff5050 !important;
-		
+		font-family: 'MyriadSetPro-Medium';
 	}
 	
 	.banner{
@@ -221,6 +226,7 @@
 		height: 150px;
 		width: 220px;
 		border: 0px !important;
+		background: #fff !important;
 		box-shadow: 0px 0px 10px rgba(120,120,120,.1);
 		transition: all .2s;
 		-webkit-transition: all .2s	
@@ -261,17 +267,19 @@
 	.sts-list-library-card .sts-list-library-card-title{
 		line-height: 10px;
 		margin-top: 10px;
-		margin-bottom: 10px;
+		margin-bottom: 20px;
 		font-size: 22px;
 		color: #00b0f0;
+		font-family: 'MyriadSetPro-Medium';
 	}
 	
 	.sts-list-library-card-selected .sts-list-library-card-title{
 		line-height: 10px;
 		margin-top: 10px;
-		margin-bottom: 10px;
+		margin-bottom: 20px;
 		font-size: 22px;
 		color: #fff;
+		font-family: 'MyriadSetPro-Medium';
 	}
 	
 	.sts-list-library-card .layui-bg-blue{
@@ -325,6 +333,21 @@
 	
 	.sts-list-library-upload-text{
 		color: #39825a !important;
+	}
+	
+	.layui-btn-primary{
+		box-shadow: 0px 0px 10px rgba(120,120,120,.1);
+		border: 0px !important;
+	}
+	
+	.layui-btn-primary-on{
+		
+		box-shadow: 0px 0px 25px rgba(26,184,242,.15) !important;
+		border: 0px !important;
+	}
+	
+	#user, #menu-account-username{
+		font-family: 'MyriadSetPro-Medium';
 	}
 	
 	

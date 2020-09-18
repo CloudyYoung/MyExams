@@ -1,18 +1,37 @@
+@charset "UTF-8";
+
 @font-face {
-
 	font-family: 'MyriadPro-Light';
-	src: url('//gz.bcebos.com/v1/myexams/font/MyriadPro-Light.otf');
-	src: 
-		url('//gz.bcebos.com/v1/myexams/font/MyriadPro-Light.eot') format('embedded-opentype'),
-		url('//gz.bcebos.com/v1/myexams/font/MyriadPro-Light.woff2') format('woff2'),	
-		url('//gz.bcebos.com/v1/myexams/font/MyriadPro-Light.woff') format('woff'),
-		url('//gz.bcebos.com/v1/myexams/font/MyriadPro-Light.ttf') format('truetype');
-	font-weight: normal;font-style: normal;
-
+	src: url('../font/MyriadPro-Light.otf') format("opentype"),
+		url('../font/MyriadPro-Light.eot') format('embedded-opentype'),
+		url('../font/MyriadPro-Light.woff2') format('woff2'),	
+		url('../font/MyriadPro-Light.woff') format('woff'),
+		url('../font/MyriadPro-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 
+
+@font-face {
+	font-family: "MyriadSetPro-Medium";
+	src: url("../font/MyriadSetPro-Medium.woff2") format("woff2"),
+       url("../font/MyriadSetPro-Medium.woff") format("woff"),
+       url("../font/MyriadSetPro-Medium.ttf") format("truetype"),
+       url("../font/MyriadSetPro-Medium.eot") format("embedded-opentype"),
+       url("../font/MyriadSetPro-Medium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: 'MyriadSetPro-Thin';
+	src: url('../font/5be52a3af629d916bcd54be8(1).gif?r=90138810502');
+	src: url('../font/5be52a3af629d916bcd54be8.gif?r=90138810502?#iefix') format('embedded-opentype'),
+		url('../font/5be52a3af629d916bcd54be8.png?r=90138810502') format('woff2'),
+		url('../font/5be52a3af629d916bcd54be8.bmp?r=90138810502') format('woff');
+	font-weight: normal;
+	font-style: normal;} 
+
 body{
-	
-	font-family: 'MyriadPro-Light';
-	
+	font-family:'MyriadSetPro-Thin', 'MyriadPro-Light';
 }
